@@ -1,0 +1,40 @@
+{
+    "plurality": {
+        "candidate": ["Peter", "Sam", "Alex"],
+        "scenario": "Assuming that we were in 2984, and we have 3 candidates who are President Macron, Prime Minister May, and Chancellor Merkel. We have to select a person as the representative of the Oceania & Eurasia Union from those of three people. The voting mechanism would be Plurality, click the \"process\" button then the result would be shown below.",
+        "votesPatternExample": [
+            ["Macron", "May", "Merkel"],
+            ["Macron", "Merkel", "May"],
+            ["Merkel", "Macron", "May"],
+            ["Merkel", "May", "Macron"],
+            ["May", "Merkel", "Macron"],
+            ["May", "Macron", "Merkel"]
+        ]
+    },
+    "bordaCount": {
+        "candidate": ["Result1", "Result2", "Result3"],
+        "scenario": "As the email which informed you:\"We wrote to you on 23 March to inform you of a new proposal regarding the national pension dispute. The University and College Union (UCU) is currently balloting its members on this proposal...\". This time, you have the privilege to vote for the strike action. You have following results can be vote: Result1 - long term strike, Result2 - Periodical strike, Result3 - Not strike. The voting mechanism would be Borda Count, click the \"process\" button then the result would be shown below.",
+        "votesPatternExample": [
+            ["Result1", "Result2", "Result3"],
+            ["Result1", "Result3", "Result2"],
+            ["Result3", "Result1", "Result2"],
+            ["Result3", "Result2", "Result1"],
+            ["Result2", "Result3", "Result1"],
+            ["Result2", "Result1", "Result3"]
+        ]
+    },
+    "alternativeVote": {
+        "candidate": ["action", "comedy", "drama", "horror"],
+        "scenario": "We have 4 genres of movie which are action, comedy, drama, and horror. Now, let's vote for your favourite movie genres",
+        "votesPatternExample": [
+            ["1", "2", "3", "4"],
+            ["2", "1", "4", "3"],
+            ["3", "4", "2", "1"],
+            ["4", "1", "3", "2"],
+            ["1", "3", "2", "4"],
+            ["2", "3", "4", "1"],
+            ["3", "2", "1", "4"],
+            ["4", "2", "3", "1"]
+        ]
+    }
+}
