@@ -1,6 +1,6 @@
 {
     "plurality": {
-        "candidate": ["Peter", "Sam", "Alex"],
+        "candidate": ["Macron", "May", "Merkel"],
         "scenario": "Assuming that we were in 2984, and we have 3 candidates who are President Macron, Prime Minister May, and Chancellor Merkel. We have to select a person as the representative of the Oceania & Eurasia Union from those of three people. The voting mechanism would be Plurality, click the \"process\" button then the result would be shown below.",
         "votesPatternExample": [
             ["Macron", "May", "Merkel"],
